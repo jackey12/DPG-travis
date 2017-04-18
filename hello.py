@@ -1,5 +1,5 @@
 import sys
-import multiprocesing as mp
+import multiprocessing as mp
 
 print("Hello world!")
 print("Python version %s " %str(sys.version))
