@@ -2,6 +2,12 @@ language: python
 python:
   - "2.7"
   - "3.5"
+
+install:
+  - pip install coveralls
   
 script:
-  - python hello.py
+  - coverage run hello.py
+  
+after_success:
+  COVELRALLS_REPO_TOKEN=RV7ZU5hW7NdsYoEWh8riCmgtiTVCtxQ8D
