@@ -10,4 +10,4 @@ script:
   - coverage run hello.py
   
 after_success:
-  COVELRALLS_REPO_TOKEN=RV7ZU5hW7NdsYoEWh8riCmgtiTVCtxQ8D
+  - COVELRALLS_REPO_TOKEN=RV7ZU5hW7NdsYoEWh8riCmgtiTVCtxQ8D COVERALLS
